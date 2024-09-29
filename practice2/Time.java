@@ -1,3 +1,5 @@
+package practice2;
+
 public class Time {
     private int hour;
     private int minute;
