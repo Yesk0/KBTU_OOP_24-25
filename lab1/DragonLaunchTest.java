@@ -10,7 +10,7 @@ public class DragonLaunchTest {
         // Похищение некоторых людей (пример: B-B-G-G)
         for(int i =0;i<s.length();i++){
             char c = s.charAt(i);
-            if (c == 'B'){
+            if (c == 'G'){
                 dragonLaunch.kidnap(new Person(Gender.GIRL));
             }else if (c == 'B'){
                 dragonLaunch.kidnap(new Person(Gender.BOY));
